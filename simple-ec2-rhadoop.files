@@ -1,0 +1,1 @@
+./hadoop-*.rb /chef/cookbooks/hadoop/recipes/
