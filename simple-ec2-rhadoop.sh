@@ -32,9 +32,14 @@ ssh $SERVER sudo make -C /var/yp
 # . . . then install RStudio
 ssh $LOGIN 'bash -s' < simple-ec2-rstudio-login.sh
 
-# go into the AWS Management Console and open port 8787
+# Go into the AWS Management Console and open port 8787
 # under "Security Groups", "globus-provision", "Inbound"
+#
+# Borja will have to do this for now.
+
+###
 
 # RStudio is now running at
 
 echo "http://${LOGIN}:8787"
+
